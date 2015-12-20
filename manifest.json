@@ -9,7 +9,12 @@
     "default_popup": "popup.html"
   },
   "permissions": [
-    "https://ajax.googleapis.com/"
+    "https://ajax.googleapis.com/",
+    "storage"
+  ],
+  "web_accessible_resources": [
+   "oauth_script.js",
+   "oauth_receiver.html"
   ],
   "icons": { "16": "calculator-16.png", "128": "calculator-128.png" }
 }
